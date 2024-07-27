@@ -19,9 +19,8 @@ const styles = () => ({
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
     display: "flex",
-    flexDirection: "column", // Ensures content alignment if needed
+    flexDirection: "column",
     width: "100%",
-    // Ensures full width
   },
 
   paddingBox: {
