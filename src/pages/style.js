@@ -8,17 +8,21 @@ const styles = () => ({
       display: "flex",
       justifyContent: "center",
       borderRadius: "16.78px",
+      width: "fit-content",
     },
   },
   MainBoxWeather: {
-    "&.MuiBox-root": {
-      height: "100vh",
-      backgroundImage: `url(${weatherimg})`,
-      backgroundSize: "cover",
-      backgroundPosition: "center",
-      backgroundRepeat: "no-repeat",
-    },
+    height: "100vh",
+    backgroundImage: `url(${weatherimg})`,
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
+    display: "flex",
+    flexDirection: "column", // Ensures content alignment if needed
+    width: "100%",
+    // Ensures full width
   },
+
   paddingBox: {
     "&.MuiBox-root": {
       padding: "70px 70px 70px 70px",
@@ -159,7 +163,7 @@ const styles = () => ({
       fontWeight: "500",
       color: "#fff",
       marginTop: "12px",
-      fontFamily:''
+      fontFamily: "",
     },
   },
 });

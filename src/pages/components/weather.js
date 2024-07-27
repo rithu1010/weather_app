@@ -25,7 +25,15 @@ const WeatherIndex = () => {
       <div>
         <Box sx={style.paddingBox}>
           <Grid container spacing={3}>
-            <Grid item xs={5}>
+            <Grid
+              item
+              xs={12}
+              lg={5}
+              xl={5}
+              md={6}
+              sm={7}
+              style={{ display: "flex", justifyContent: "center" }}
+            >
               <Box sx={style.WeatherBox}>
                 <Box>
                   <Box sx={{ display: "flex", justifyContent: "center" }}>
@@ -71,7 +79,7 @@ const WeatherIndex = () => {
                 </Box>
               </Box>
             </Grid>
-            <Grid item xs={5}>
+            <Grid item xs={12} lg={6} xl={6} md={5} sm={4}>
               <Box sx={style.WeatherBox1}>
                 <Box>
                   <Box sx={style.display3}>
