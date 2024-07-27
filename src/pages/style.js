@@ -13,14 +13,19 @@ const styles = () => ({
     },
   },
   MainBoxWeather: {
-    height: "100vh",
-    backgroundImage: `url(${weatherimg})`,
-    backgroundSize: "cover",
-    backgroundPosition: "center",
-    backgroundRepeat: "no-repeat",
-    display: "flex",
-    flexDirection: "column",
-    width: "100%",
+    "&.MuiBox-root": {
+      height: "100vh",
+      backgroundImage: `url(${weatherimg})`,
+      backgroundSize: "cover",
+      backgroundPosition: "center",
+      backgroundRepeat: "no-repeat",
+      display: "flex",
+      flexDirection: "column",
+      width: "100%",
+      display: "flex",
+      justifyContent: "center",
+      alignItems: "center",
+    },
   },
 
   paddingBox: {
