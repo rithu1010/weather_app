@@ -1,11 +1,8 @@
-import "./App.css";
+import React from "react";
+import Weather from "./pages/index";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">weather app</header>
-    </div>
-  );
+  return <Weather />;
 }
 
 export default App;
