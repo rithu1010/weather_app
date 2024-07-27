@@ -7,6 +7,7 @@ const styles = () => ({
       padding: "40px",
       display: "flex",
       justifyContent: "center",
+      alignItems: "center",
       borderRadius: "16.78px",
       width: "fit-content",
     },
@@ -32,34 +33,37 @@ const styles = () => ({
   TodayTypo: {
     "&.MuiTypography-root": {
       color: "#EFAA82",
-      fontSize: "16PX",
+      fontSize: "18PX",
       fontWeight: "600",
+      fontFamily: "'Poppins', Arial, sans-serif",
     },
   },
   TodayTypo1: {
     "&.MuiTypography-root": {
       color: "#EFAA82",
       fontWeight: "600",
-      fontSize: "16PX",
+      fontSize: "18PX",
+      fontFamily: "'Poppins', Arial, sans-serif",
     },
   },
   addresstypo: {
     "&.MuiTypography-root": {
       color: "#EFAA82",
       fontWeight: "500",
-      fontSize: "14PX",
+      fontSize: "16PX",
+      fontFamily: "'Poppins', Arial, sans-serif",
     },
   },
   arrowdownicon: {
     "&.MuiSvgIcon-root": {
-      fontSize: "24px",
+      fontSize: "28px",
       color: "#EFAA82",
       marginLeft: "5px",
     },
   },
   sunIcon: {
     "&.MuiSvgIcon-root": {
-      fontSize: "50px",
+      fontSize: "64px",
       color: "#EFAA82",
       marginLeft: "0px",
       marginTop: "12px",
@@ -69,8 +73,9 @@ const styles = () => ({
   countTypo: {
     "&.MuiTypography-root": {
       color: "#EFAA82",
-      fontSize: "50px",
+      fontSize: "64px",
       fontWeight: "600",
+      fontFamily: "'Poppins', Arial, sans-serif",
     },
   },
   display: {
@@ -136,6 +141,8 @@ const styles = () => ({
       color: "#fff",
       fontSize: "14px",
       marginRight: "8px",
+      fontFamily: "'Poppins', Arial, sans-serif",
+
       marginTop: "3px",
     },
   },
@@ -155,15 +162,16 @@ const styles = () => ({
       marginRight: "8px",
       fontWeight: "600",
       marginTop: "22px",
+      fontFamily: "'Poppins', Arial, sans-serif",
     },
   },
   randomText1: {
     "&.MuiTypography-root": {
       fontSize: "18px",
-      fontWeight: "500",
+      fontWeight: "400",
       color: "#fff",
       marginTop: "12px",
-      fontFamily: "",
+      fontFamily: "'Poppins', Arial, sans-serif",
     },
   },
 });
